@@ -1,0 +1,79 @@
+body {
+    min-height: 100vh;
+    padding: 0px;
+    margin: 0px;
+    display: grid;
+    grid-template-rows: 10vh 80vh 10vh;
+}
+
+.header{
+background-color: #B9B7BD;
+color: black;
+display: flex;
+justify-content: space-around;
+align-items: center;
+font-size: 2.5rem;
+
+position: relative;
+}
+.rules {
+    font-size: 1.5rem;
+}
+
+
+.game-content {
+    display: grid;
+    background-color: white;
+}
+.display-turn {
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+span.display-turn {
+    border: solid black;
+    padding: 1.5rem;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+.gameboards {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.player1,.player2 {
+    display: flex;
+    
+}
+.ships-status {
+    width: 6rem;
+    height: 6rem;
+    background-color: antiquewhite;
+}
+
+.board{
+    width: calc(20rem + 40px);
+    height: calc(20rem + 40px);
+    background-color: #6AABD2;
+    border: solid black 1px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 1rem;
+}
+button {
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.footer {
+ background-color: #B9B7BD;
+}
